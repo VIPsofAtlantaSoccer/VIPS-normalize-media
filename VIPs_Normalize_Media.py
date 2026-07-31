@@ -267,7 +267,7 @@ class Fix_Files():
             self.Progress.Update_Task( self.Tasks["Movies"], Visible=False )
 
         if ( self.Stop_Due_to_Error ):
-            self.Console.print( f"\nAll threads have been stopped due to an error", style="bright red" )
+            self.Console.print( f"\nAll threads have been stopped due to an error", style="bright_red" )
             #self.Report()
 
 
