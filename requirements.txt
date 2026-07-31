@@ -1,0 +1,8 @@
+hachoir==3.3.0
+markdown-it-py==4.2.0
+mdurl==0.1.2
+pillow==12.3.0
+Pygments==2.20.0
+rich==15.0.0
+Send2Trash==2.1.0
+Wand==0.7.2
