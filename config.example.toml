@@ -1,0 +1,27 @@
+[Executables]
+Dir_Exiftool = 'C:\Path\To\ExifTool'
+Dir_FFMpeg   = 'C:\Path\To\FFmpeg'
+
+[Processing]
+Age_Convert    = 7     # Default 7
+Width_Limit    = 2000  # Default 2000
+Height_Limit   = 1500  # Default 1500
+Filename_Limit = 180   # Windows starts having issues above this
+
+[Threads]
+Deletes = 2
+Movies  = 5
+Images  = 8
+
+[File_Types]
+Deletes        = [ '.ini', '.aae' ]
+Images         = [ '.jpg', '.jpeg', '.webp', '.jfif', '.png', '.heic', '.avif', '.nef' ]
+Images_Convert = [ '.jpg', '.jpeg', '.jfif', '.png', '.heic', '.avif', '.nef' ]
+Movies         = [ '.mp4', '.mov' ]
+Movies_Convert = [ '.mov' ]
+
+[Directories]
+Paths = [
+    'C:\Path\To\Media',
+    'C:\Path\To\Media'
+]
